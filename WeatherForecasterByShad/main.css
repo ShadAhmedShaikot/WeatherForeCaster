@@ -1,0 +1,121 @@
+@media(min-width: 1000px){
+	body{
+	background: url(b2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header {
+	background: #DFCBE6;
+	box-shadow: 0px 1px 19px 9px #BEE3FD;
+}
+.header h2 {
+	color: #705B7F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#heading {
+	font-size: 20px;
+	border-bottom: 1px dashed #95839C;
+	max-width: 175px;
+	color: #505050;
+	text-align: center;
+}
+#context {
+	color: #585858;
+	padding-bottom: 6px;
+}
+.cityInfo {
+	text-align: center;
+	color: #6D4462;
+	font-size: 26px;
+	line-height: 39px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 34px;
+}
+.sky,.wind,.temparature  {
+	padding-left: -1px;
+	text-align: center;
+}
+
+.sky h4, .wind h4, .temparature h4 {
+	font-style: italic;
+	font-size: 30px;
+	line-height: 28px;
+	padding: 20px;
+	color: #00178B;
+}
+.sky p, .wind p, .temparature p {
+	font-style: oblique;
+	font-size: 22px;
+	line-height: 34px;
+	color: #3C3525;
+}
+}
+@media(max-width: 1000px){
+	body{
+	background: url(b2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header {
+	background: #DFCBE6;
+	box-shadow: 0px 1px 19px 9px #BEE3FD;
+}
+.header h2 {
+	color: #705B7F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+#heading {
+	font-size: 16px;
+	border-bottom: 1px dashed #95839C;
+	max-width: 115px;
+	color: #505050;
+	text-align: center;
+}
+#context {
+	color: #585858;
+	padding-bottom: 13px;
+	font-size: 14px;
+	line-height: 9px;
+}
+.cityInfo {
+	text-align: center;
+	color: #302E56;
+	font-size: 17px;
+	line-height: 24px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 28px;
+	font-weight: bold;
+}
+.sky,.wind,.temparature  {
+	padding-left: -1px;
+	text-align: center;
+}
+
+.sky h4, .wind h4, .temparature h4 {
+	font-style: italic;
+	font-size: 22px;
+	line-height: 10px;
+	padding: 20px;
+	color: #00178B;
+	font-weight: bold;
+}
+.sky p, .wind p, .temparature p {
+	font-style: oblique;
+	font-size: 15px;
+	line-height: 25px;
+	color: #222222;
+	font-weight: bold;
+	
+}
+}
